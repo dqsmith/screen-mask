@@ -1,0 +1,36 @@
+<div class="sm-app-container">
+  <div class="sm-header-container">
+    <h3>Screen Mask</h3>
+    <img src="../assets/images/icon24.png" class="sm-icon" />
+  </div>
+
+  <div class="sm-instruction">
+    <p>Choose a screen mask size and <strong>power on</strong> to enable.</p>
+  </div>
+
+  <div class="sm-container">
+    <div class="sm-power-button">
+      <div class="sm-switch-container">
+        <input
+          id="sm-power-toggle"
+          (change)="onToggleMask($event)"
+          class="sm-toggle sm-toggle-round-flat"
+          type="checkbox"
+          [checked]="config?.on"
+        />
+        <label for="sm-power-toggle"></label>
+      </div>
+    </div>
+    <div class="sm-range-container">
+      <input
+        id="range-input"
+        (change)="onMaskSizeChange($event)"
+        type="range"
+        [value]="config?.range"
+        min="10"
+        max="150"
+        step="1"
+      />
+    </div>
+  </div>
+</div>

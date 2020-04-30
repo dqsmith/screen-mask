@@ -1,0 +1,18 @@
+.sm-screen-mask {
+  opacity: 0.5;
+  position: fixed;
+  border-radius: 0;
+  background: #000;
+  width: 100%;
+  left: 0;
+  display: block;
+  z-index: 100000000 !important;
+}
+
+.sm-screen-mask-upper {
+  top: 0;
+}
+
+.sm-screen-mask-lower {
+  bottom: 0;
+}
