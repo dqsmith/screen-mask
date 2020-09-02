@@ -8,7 +8,7 @@ Screen Mask is website or web document reading tool that follows your mouse or t
 
 ## Demo
 
-You can install via the [Chrome Web Store](https://chrome.google.com/webstore/detail/screen-mask/mhccomhlpeimdkagphppaoefhkeopnho).
+You can install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/screen-mask/mhccomhlpeimdkagphppaoefhkeopnho) or from [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/screen-mask/dfanfcmhbdocjfpmnoebccndgmhlincl)
 
 ## License
 
