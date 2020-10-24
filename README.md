@@ -25,7 +25,7 @@ npm i
 This is an angular-cli (angular 9) project, so you may want to install this globally.
 
 ```
-npm i angular/cli@9.x.x -g
+npm i @angular/cli@9.x.x -g
 ```
 
 Test the extension
